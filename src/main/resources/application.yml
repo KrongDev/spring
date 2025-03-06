@@ -26,3 +26,7 @@ spring:
       expiredAt: 300000   # 5분
     email:
       expiredAt: 300000   # 5분
+
+server:
+  port: 8080
+  shutdown: graceful
